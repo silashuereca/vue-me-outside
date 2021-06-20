@@ -22,6 +22,6 @@
     "vite": "^2.3.7"
   },
   "lint-staged": {
-    "*.js": ["yarn lint"]
+    "*.js": "eslint --ext .js,.vue src"
   }
 }
