@@ -5,7 +5,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --ext .js,.vue src",
-    "lint-staged": "lint-staged"
+    "pre-commit": "lint-staged"
   },
   "dependencies": {
     "autoprefixer": "^10.2.6",
