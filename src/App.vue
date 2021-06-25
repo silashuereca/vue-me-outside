@@ -20,7 +20,7 @@
       </div>
     </div>
     <!-- content -->
-    <div class="bg-gray-50 w-full p-5">
+    <div class="bg-gray-50 w-full p-20">
       <router-view />
     </div>
   </div>
@@ -33,6 +33,11 @@ export default {
       routes: [
         { name: "Home", routeName: "home-page", route: "/" },
         { name: "Input", routeName: "input-page", route: "/input" },
+        {
+          name: "Sliding Cards",
+          routeName: "sliding-cards",
+          route: "/sliding-cards",
+        },
       ],
     };
   },

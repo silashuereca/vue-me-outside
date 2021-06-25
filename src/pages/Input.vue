@@ -1,5 +1,5 @@
 <template>
-  <div class="p-20">
+  <div>
     <section-card heading="Input type[text]">
       <div class="mt-3">
         <input-component
