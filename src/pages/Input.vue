@@ -2,12 +2,7 @@
   <div>
     <section-card heading="Input type[text]">
       <div class="mt-3">
-        <input-component
-          id="text"
-          type="number"
-          v-model="text"
-          placeholder="Some value..."
-        ></input-component>
+        <input-component id="text" v-model="text" type="number" placeholder="Some value..."></input-component>
 
         <p v-text="text"></p>
       </div>

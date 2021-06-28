@@ -5,17 +5,8 @@
       <h1 class="text-2xl text-green-500">Vue Components</h1>
 
       <div class="mt-4">
-        <router-link
-          v-for="(item, index) in routes"
-          :key="index"
-          :to="{ name: item.routeName }"
-          class="text-lg mt-1"
-        >
-          <div
-            class="w-full p-1 hover:bg-gray-100"
-            :class="{ 'bg-gray-100': $route.name === item.routeName }"
-            v-text="item.name"
-          />
+        <router-link v-for="(item, index) in routes" :key="index" :to="{ name: item.routeName }" class="text-lg mt-1">
+          <div class="w-full p-1 hover:bg-gray-100" :class="{ 'bg-gray-100': $route.name === item.routeName }" v-text="item.name" />
         </router-link>
       </div>
     </div>
@@ -33,11 +24,7 @@ export default {
       routes: [
         { name: "Home", routeName: "home-page", route: "/" },
         { name: "Input", routeName: "input-page", route: "/input" },
-        {
-          name: "Sliding Cards",
-          routeName: "sliding-cards",
-          route: "/sliding-cards",
-        },
+        { name: "Pricing Page", routeName: "pricing-page", route: "/pricing-page" },
       ],
     };
   },
