@@ -1,10 +1,10 @@
 # Vue Me Outside
 
-This project aims to help provide a wide variety of Vue 3 components that you can quickly copy into your project with all of the Javascript written for you.
+This project aims to help provide a wide variety of **Vue 3** components that you can quickly copy into your project with all of the Javascript written for you.
+
+Check out the [Component Library!](https://github.com/silashuereca/vue-me-outside/tree/main/src/component-library)
 
 ## Project Setup
-
-- Please make sure and install the [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to help with configuration
 
 ```bash
   npm install
