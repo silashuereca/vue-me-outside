@@ -32,7 +32,7 @@ export default {
     //text value
     <input-component id="text" v-model="text" type="text" placeholder="Some value..."><input-component>
     //number value
-    <input-component id="text" v-model="number" type="number" placeholder="Some value.."><input-component>
+    <input-component id="number" v-model="number" type="number" placeholder="Some value.."><input-component>
   </div>
 </template>
 
