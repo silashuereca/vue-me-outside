@@ -30,9 +30,9 @@ export default {
 <template>
   <div>
     //text value
-    <input-component id="text" v-model="text" type="text" placeholder="Some value..."><input-component>
+    <input-component id="text" v-model="text" type="text" placeholder="Some value..." />
     //number value
-    <input-component id="number" v-model="number" type="number" placeholder="Some value.."><input-component>
+    <input-component id="number" v-model="number" type="number" placeholder="Some value.." />
   </div>
 </template>
 
