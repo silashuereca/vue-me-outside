@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Before making a PR, please create an issue to bring what you're thinking about into discussion, so others who may have the same idea do not create similar PRs. :)
+Before making a PR, please create an issue to bring what you're thinking about into discussion, so others who may have the same idea do not create similar PRs. You can also checkout the [Project](https://github.com/silashuereca/vue-me-outside/projects/1) board with a lot of requested components what will be implemented in the near future. If you feel like you can tackle one, create an issue and let's talk about it!
 
 **IMPORTANT**: If you make any contribution to any component, you need to update the version of that component in the component README file. For example: if you're creating a new component, add Version 1.0 to the documentation, or if you're updating a component, you need to add a .1 to the version and make sure and UPDATE THE README if need be.
 
